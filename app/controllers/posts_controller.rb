@@ -49,7 +49,7 @@ class PostsController < ApplicationController
     @post.user = current_user
 
     @post.destroy
-    redirect_to account_posts_path, alert: "Post Deleted"
+    redirect_to account_posts_path, alert: "Post deleted"
   end
 
 
